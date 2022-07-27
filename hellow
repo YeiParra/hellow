@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <title>ejercicio 1 // lenguaje de javascript</title>
+<body> 
+
+    <h1>Hallar Area y perimetro></h1>
+     <p>Hallar area y perimetro de un triangulor rectangulo</p>
+     <script>
+
+        let base=parseInt(prompt("ingresar la base"))
+   let altura=parseInt(prompt("ingresar altura"))
+   let A=parseInt(prompt("ingresar datos lado A"))
+   let b=parseInt(prompt("ingresar datos lado B"))
+   let C=parseInt(prompt("ingresar datos lado C"))
+   
+
+   area=(base*altura)/2
+   document.write("el area del triangulo es: " +area + "cm²");
+   
+   perimetro=(a+b+c)
+
+ document.write("el perimetro del triangulo es: " +perimetro + "cm");
+        
+     </script>
+</body>
+</html>
